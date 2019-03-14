@@ -12,3 +12,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+header {
+  height: 90px;
+  width: 100%;
+  background-color: rgba(4, 125, 255, 0.783);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.home{
+  color: black;
+  margin-left: 50px;
+  font-weight: bolder;
+}
+.blackBox{
+  background-color: black;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whiteBox{
+  position: absolute;
+  background-color: white;
+  height: 92%;
+  width: 100%;
+  top: 0;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+h2{
+  font-weight: bolder;
+  display: flex;
+  margin: 0;
+}
+p{
+  position: relative;
+  bottom: 1em;
+  margin-left: 10px;
+  font-weight: lighter;
+}
+li{
+
+  margin-top: 10px;
+  font-weight: lighter;
+}
+.name{
+  border-bottom: 2px solid rgba(4, 125, 255, 0.783);
+  font-size: 3em;
+  width: 370px;
+}
+.from{
+  left: 100px;
+  top: 50px;
+}
+.pageNum{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.nav{
+  position: relative;
+  height: 75%;
+  background-color: gray;
+  width: 75%;
+}
+button{
+  margin-top: 633px;
+  margin-right: 20px;
+  background-color: rgba(4, 125, 255, 0.783);
+  border-radius: 20%;
+  font-size: 1.2em;
+}
+.previous{
+  position: absolute;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5em;
+  left: 50px;
+  bottom: 15px
+}
+.next{
+  position: absolute;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5em;
+  right: 50px;
+  bottom: 15px;
+}
+
